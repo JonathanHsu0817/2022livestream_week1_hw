@@ -1,0 +1,209 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block;
+}
+
+body {
+  line-height: 1;
+}
+
+ol, ul {
+  list-style: none;
+}
+
+blockquote, q {
+  quotes: none;
+}
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: "";
+  content: none;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+*, *::after, *::before {
+  box-sizing: border-box;
+}
+
+body {
+  font-size: 24px;
+  line-height: 1.5;
+}
+
+img {
+  vertical-align: middle;
+}
+
+h1 {
+  font-size: 80px;
+  font-weight: bold;
+  line-height: 95px;
+  border-bottom: 2px solid #000;
+  margin-top: 40px;
+}
+
+h2 {
+  font-size: 32px;
+  font-weight: bold;
+  border-bottom: 1px solid #000;
+}
+
+h3 {
+  font-weight: bold;
+  line-height: 1.2;
+}
+
+span {
+  vertical-align: middle;
+  font-size: 24px;
+  line-height: 1.2;
+}
+span.white {
+  color: #fff;
+}
+span.red {
+  color: #A00404;
+}
+
+.pb-6 {
+  padding-bottom: 6px;
+}
+.pb-8 {
+  padding-bottom: 8px;
+}
+.pb-16 {
+  padding-bottom: 16px;
+}
+.pb-24 {
+  padding-bottom: 24px;
+}
+.pb-48 {
+  padding-bottom: 48px;
+}
+
+.mb-16 {
+  margin-bottom: 16px;
+}
+.mb-17 {
+  margin-bottom: 17px;
+}
+.mb-24 {
+  margin-bottom: 24px;
+}
+.mb-46 {
+  margin-bottom: 46px;
+}
+.mb-48 {
+  margin-bottom: 48px;
+}
+.mb-64 {
+  margin-bottom: 64px;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+.area-skill {
+  background: #415165;
+  color: #fff;
+  text-align: center;
+  margin: 0 auto 64px;
+  padding-top: 24px;
+  padding-bottom: 40px;
+}
+.area-skill .skill {
+  width: 960px;
+  margin: 0 auto;
+  border-bottom: 2px solid #96A9C4;
+}
+.area-skill .skill-list {
+  border-left: 1px solid #96A9C4;
+  text-align: left;
+  width: 240px;
+  margin: 41px auto 0px;
+}
+.area-skill .skill-list .skill-items {
+  padding-bottom: 8px;
+  padding-left: 23px;
+}
+.area-skill .skill-list .skill-items.last {
+  padding-bottom: 0;
+}
+
+.exp-list {
+  padding-left: 24px;
+  border-left: 1px solid #96A9C4;
+  margin-left: 24px;
+  margin-bottom: 80px;
+}
+.exp-list .exp-items {
+  margin-bottom: 24px;
+}
+.exp-list .exp-items.last {
+  margin-bottom: 0;
+}
+
+.area-contact {
+  background: #415165;
+  color: #fff;
+  text-align: center;
+  margin: 0 auto;
+  padding-top: 24px;
+  padding-bottom: 40px;
+}
+.area-contact .contact {
+  width: 960px;
+  margin: 0 auto;
+  border-bottom: 2px solid #96A9C4;
+}
+.area-contact ul {
+  margin-top: 24px;
+}
+.area-contact ul li {
+  padding-bottom: 16px;
+}
+.area-contact ul li a {
+  text-decoration: none;
+  color: #fff;
+}
+.area-contact ul .contact-platform {
+  display: flex;
+  justify-content: center;
+}
+.area-contact ul .contact-platform img {
+  padding: 0 12px;
+}/*# sourceMappingURL=all.css.map */
