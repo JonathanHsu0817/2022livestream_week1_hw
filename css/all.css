@@ -59,6 +59,7 @@ table {
 body {
   font-size: 24px;
   line-height: 1.5;
+  font-family: "SF Pro Text", "Microsoft JhengHei";
 }
 
 img {
@@ -67,21 +68,27 @@ img {
 
 h1 {
   font-size: 80px;
-  font-weight: bold;
   line-height: 95px;
   border-bottom: 2px solid #000;
+  padding-bottom: 24px;
   margin-top: 40px;
+  margin-bottom: 46px;
 }
 
 h2 {
   font-size: 32px;
   font-weight: bold;
   border-bottom: 1px solid #000;
+  padding-bottom: 6px;
+  margin-bottom: 17px;
 }
 
 h3 {
   font-weight: bold;
-  line-height: 1.2;
+}
+
+p {
+  font-size: 20px;
 }
 
 span {
@@ -115,14 +122,8 @@ span.red {
 .mb-16 {
   margin-bottom: 16px;
 }
-.mb-17 {
-  margin-bottom: 17px;
-}
 .mb-24 {
   margin-bottom: 24px;
-}
-.mb-46 {
-  margin-bottom: 46px;
 }
 .mb-48 {
   margin-bottom: 48px;
@@ -148,7 +149,7 @@ span.red {
 .area-skill .skill {
   width: 960px;
   margin: 0 auto;
-  border-bottom: 2px solid #96A9C4;
+  border-bottom: 1px solid #fff;
 }
 .area-skill .skill-list {
   border-left: 1px solid #96A9C4;
@@ -172,6 +173,9 @@ span.red {
 }
 .exp-list .exp-items {
   margin-bottom: 24px;
+}
+.exp-list .exp-items p {
+  width: 650px;
 }
 .exp-list .exp-items.last {
   margin-bottom: 0;
@@ -201,8 +205,8 @@ span.red {
   color: #fff;
 }
 .area-contact ul .contact-platform {
-  display: flex;
-  justify-content: center;
+  width: 240px;
+  margin: 0 auto;
 }
 .area-contact ul .contact-platform img {
   padding: 0 12px;
