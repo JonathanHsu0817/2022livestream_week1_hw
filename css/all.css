@@ -59,7 +59,7 @@ table {
 body {
   font-size: 24px;
   line-height: 1.5;
-  font-family: "SF Pro Text", "Microsoft JhengHei";
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Microsoft JhengHei", Roboto, "Helvetica Neue", Arial, sans-serif;
 }
 
 img {
@@ -96,10 +96,10 @@ span {
   font-size: 24px;
   line-height: 1.2;
 }
-span.white {
+span.text-white {
   color: #fff;
 }
-span.red {
+span.text-secondary {
   color: #A00404;
 }
 
@@ -147,7 +147,7 @@ span.red {
   padding-bottom: 40px;
 }
 .area-skill .skill {
-  width: 960px;
+  width: 996px;
   margin: 0 auto;
   border-bottom: 1px solid #fff;
 }
@@ -158,8 +158,8 @@ span.red {
   margin: 41px auto 0px;
 }
 .area-skill .skill-list .skill-items {
-  padding-bottom: 8px;
-  padding-left: 23px;
+  margin-bottom: 8px;
+  margin-left: 23px;
 }
 .area-skill .skill-list .skill-items.last {
   padding-bottom: 0;
@@ -190,24 +190,32 @@ span.red {
   padding-bottom: 40px;
 }
 .area-contact .contact {
-  width: 960px;
-  margin: 0 auto;
   border-bottom: 2px solid #96A9C4;
 }
 .area-contact ul {
   margin-top: 24px;
 }
 .area-contact ul li {
-  padding-bottom: 16px;
+  margin-bottom: 16px;
 }
 .area-contact ul li a {
   text-decoration: none;
   color: #fff;
 }
+.area-contact ul li a:hover {
+  color: #aaaaaa;
+}
+.area-contact ul .last {
+  margin-bottom: 0;
+}
 .area-contact ul .contact-platform {
-  width: 240px;
-  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.area-contact ul .contact-platform li {
+  margin-bottom: 0;
 }
 .area-contact ul .contact-platform img {
-  padding: 0 12px;
+  margin: 0 12px;
 }/*# sourceMappingURL=all.css.map */
